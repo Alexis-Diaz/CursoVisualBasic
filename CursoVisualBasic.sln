@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SelectCase(Swicth)", "SelectCase(Swicth)\SelectCase(Swicth).vbproj", "{8C9FEB10-9B09-4958-9FF8-DF2E2C8BE214}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BucleFor", "BucleFor\BucleFor.vbproj", "{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bucles", "Bucles", "{B8951198-B487-4DC8-82F9-0E5ABBC70000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EstructurasDeFlujo", "EstructurasDeFlujo", "{44024303-30D2-4183-A472-125E50F50226}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BucleWhile", "BucleWhile\BucleWhile.vbproj", "{7F555208-1F72-4792-AF3F-C6526C2BEB1E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoLoop(DoWhile)", "DoLoop(DoWhile)\DoLoop(DoWhile).vbproj", "{9C67E6FA-CE8E-47F4-81A5-0D227FB2CF36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,26 @@ Global
 		{8C9FEB10-9B09-4958-9FF8-DF2E2C8BE214}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9FEB10-9B09-4958-9FF8-DF2E2C8BE214}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9FEB10-9B09-4958-9FF8-DF2E2C8BE214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F555208-1F72-4792-AF3F-C6526C2BEB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F555208-1F72-4792-AF3F-C6526C2BEB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F555208-1F72-4792-AF3F-C6526C2BEB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F555208-1F72-4792-AF3F-C6526C2BEB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C67E6FA-CE8E-47F4-81A5-0D227FB2CF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C67E6FA-CE8E-47F4-81A5-0D227FB2CF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C67E6FA-CE8E-47F4-81A5-0D227FB2CF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C67E6FA-CE8E-47F4-81A5-0D227FB2CF36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C9FEB10-9B09-4958-9FF8-DF2E2C8BE214} = {44024303-30D2-4183-A472-125E50F50226}
+		{E2BF3AD4-E0D3-4A35-8CF7-82D63EA8F965} = {B8951198-B487-4DC8-82F9-0E5ABBC70000}
+		{7F555208-1F72-4792-AF3F-C6526C2BEB1E} = {B8951198-B487-4DC8-82F9-0E5ABBC70000}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFAAE717-24B5-484D-B341-62C7F9F6916A}

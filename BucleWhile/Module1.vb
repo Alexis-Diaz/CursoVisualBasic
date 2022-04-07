@@ -32,7 +32,7 @@
             'al parecer el error lo da al dividir un valor de la varible y dicho
             'valor se le asigna a la misma
 
-            digito = (digito / 10)
+            digito = Math.Truncate(digito / 10)
 
         End While
 

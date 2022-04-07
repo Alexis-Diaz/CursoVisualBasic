@@ -7,7 +7,7 @@
         For i = 1 To 2 Step 1
             Console.WriteLine("Este es el mensaje del primer for")
             For j = 1 To 3 Step 1
-                Console.WriteLine("Este es el mensaje del segundo for")
+                Console.WriteLine("     Este es el mensaje del segundo for")
 
             Next
         Next

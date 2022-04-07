@@ -14,9 +14,13 @@
         'tomará esa información de acuerdo a los valores indicados. Cada par de llaves
         'conforman una fila, las comas fuera de las filas delimitan las columnas.
 
-        'Nota: esta forma se debe ser cuidadoso para que las filas tengan el mismo
+        'Nota: esta forma se debe ser cuidadoso para todas las filas deben tener el mismo
         'numero de elementos.
+        'La coma detro del parentesis indica que almacenaremos de forma  
+        'directa a la matriz
         Dim matrizNumero = New Integer(,) {{25, 13, 23}, {2, 3, 4}}
+
+
 
         'ASIGNACION DE VALORES
 
@@ -65,6 +69,8 @@
         'CUANDO NO SE CONOCE FILAS Y COLUMNAS EN MATRICEZ
         'Cuando usamos 0 dentro del metodo GetUpperBound obtenemos el numero total de filas donde la primera fila es 1
         'Cuando le pasamos 1 al metodo nos devuelve el numero total de columnas donde la primera columna es 1
+        'Como esta funcion devuelve el numero de filas o columnas totales se le debe restar 1 para obtener el indice
+        'de la fila o columna.
         For i = 0 To numeros.GetUpperBound(0) - 1 Step 1
             For j = 0 To numeros.GetUpperBound(1) - 1 Step 1
                 Console.WriteLine(numeros(i, j))

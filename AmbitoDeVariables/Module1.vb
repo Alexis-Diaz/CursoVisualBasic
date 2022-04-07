@@ -3,11 +3,11 @@
 
     'Alcance global: este tipo de variables seran alcanzadas desde todos los metodos que pertenecen
     'a la clase Module1
-
     Dim VariableGlobal As String = "Osmin"
 
 
     Sub Main()
+        'Alcance local: solo pueden ser accedidas desde dentro del metodo donde han sido declaradas
         Dim VariableLocal As String = "Alexis"
 
         Console.WriteLine(VariableGlobal)

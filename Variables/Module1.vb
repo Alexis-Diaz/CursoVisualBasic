@@ -5,7 +5,7 @@ Module Module1
     Sub Main()
         'Visual Basic NO es case sensitive
 
-        'VARIBLES
+        'VARIABLES
         'Para crear variables se usa la palabra reservada Dim
         'El tipo se escribe despues del nombre de la variable con la palabra reservadas As
         Dim Numero As Integer = 12

@@ -10,7 +10,7 @@
         Dim numero As Integer = 1
         While numero <> 0
             Console.WriteLine("Estamos en el bucle while")
-            Console.WriteLine("Ingrese un numero para la varible. Ingrese 0 para cerrar.")
+            Console.WriteLine("Ingrese un numero para la variable. Ingrese 0 para cerrar.")
             numero = Console.ReadLine()
 
         End While
@@ -23,6 +23,8 @@
         Dim sumaDigito As Integer = 0
 
         While digito > 0
+            Dim valor As Double
+            valor = digito Mod 10
 
             sumaDigito = sumaDigito + (digito Mod 10)
 
@@ -30,7 +32,7 @@
             'al parecer el error lo da al dividir un valor de la varible y dicho
             'valor se le asigna a la misma
 
-            digito = Math.Truncate(digito / 10)
+            digito = (digito / 10)
 
         End While
 

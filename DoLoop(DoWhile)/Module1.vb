@@ -1,7 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
-        'El bucle do loop siempre se repetirá minimo una vez
+        'El bucle do loop siempre se repetirá como minimo una vez
         'existen dos formas: con while y con until
 
         'el while repite mientras condicion sea true

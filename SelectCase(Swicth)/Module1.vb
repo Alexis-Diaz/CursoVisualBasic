@@ -3,12 +3,12 @@
     Sub Main()
         'En visual basic no se usa punto y coma al terminar las instrucciones, tampoco es sensitve case
 
-        'Elaborar un programa de consola en VB que permita realizar una opracion matematica
+        'Elaborar un programa de consola en VB que permita realizar una opracion basica matematica
         'entre dos numeros, teniendo en cuenta la opcion del usuario por teclado, sindo 1=suma
         '2=resta, 3=multiplicacion, 3=division y 5=porcentaje.
 
         Console.WriteLine("Ingrese 1=sumar, 2=resta, 3=multiplicar, 4=dividir y 5=porcentaje")
-        Dim opcion = Console.ReadLine
+        Dim opcion As Integer = Console.ReadLine()
 
         Dim numero1, numero2 As Double
 

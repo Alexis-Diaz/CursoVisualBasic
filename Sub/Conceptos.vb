@@ -20,6 +20,19 @@
 
     '* Pueden tener o no argumentos
 
-    '''''
+    'FUNCTION
+    'Estas funciones son las que retornan un dato como producto de una serie de procesos
+    'realizados dentro de la funcion y que permiten continuar con otros procesos.
+    'Consideraciones a tomar en cuenta:
+
+    '* Los procedimientos Function comienzan con la palabra Function y termina con la palabra
+    'reservada End Function 
+
+    '* Debe retornar un dato
+
+    '*Puede tener o no argumentos.
+
+
+
 
 End Module

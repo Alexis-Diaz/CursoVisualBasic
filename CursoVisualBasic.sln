@@ -55,6 +55,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OrdenamientoPorMetodoDeBurb
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CopiarElementosArray", "CopiarElementosArray\CopiarElementosArray.vbproj", "{8F8BEE03-7F79-4D0C-92CF-6B4607842FE1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CopiaElementosMatriz", "CopiaElementosMatriz\CopiaElementosMatriz.vbproj", "{D2243FAF-123D-4A9F-8BD1-5309356F2C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{8F8BEE03-7F79-4D0C-92CF-6B4607842FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F8BEE03-7F79-4D0C-92CF-6B4607842FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F8BEE03-7F79-4D0C-92CF-6B4607842FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2243FAF-123D-4A9F-8BD1-5309356F2C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2243FAF-123D-4A9F-8BD1-5309356F2C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2243FAF-123D-4A9F-8BD1-5309356F2C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2243FAF-123D-4A9F-8BD1-5309356F2C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +167,7 @@ Global
 		{66B05375-D021-40AB-8A30-ADD4B6B78184} = {8B4828F3-889C-4AB8-9E07-8F8FECE89718}
 		{21D8C252-0B79-4A12-87AF-71C7468C15E4} = {8B4828F3-889C-4AB8-9E07-8F8FECE89718}
 		{8F8BEE03-7F79-4D0C-92CF-6B4607842FE1} = {8B4828F3-889C-4AB8-9E07-8F8FECE89718}
+		{D2243FAF-123D-4A9F-8BD1-5309356F2C3C} = {8B4828F3-889C-4AB8-9E07-8F8FECE89718}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFAAE717-24B5-484D-B341-62C7F9F6916A}

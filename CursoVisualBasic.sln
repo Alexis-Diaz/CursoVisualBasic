@@ -89,6 +89,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExcepcionesII", "Excepcione
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExcepcionesIII", "ExcepcionesIII\ExcepcionesIII.vbproj", "{CD2C5A9C-25BC-41F7-919B-1B598649F173}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FuncionesString", "FuncionesString\FuncionesString.vbproj", "{A578F679-3C32-4B0B-83CF-38040B117152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{CD2C5A9C-25BC-41F7-919B-1B598649F173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD2C5A9C-25BC-41F7-919B-1B598649F173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD2C5A9C-25BC-41F7-919B-1B598649F173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A578F679-3C32-4B0B-83CF-38040B117152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A578F679-3C32-4B0B-83CF-38040B117152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A578F679-3C32-4B0B-83CF-38040B117152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A578F679-3C32-4B0B-83CF-38040B117152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +262,7 @@ Global
 		{EB1B32C9-DF68-46E0-B0A3-4B7F412C531E} = {7DD34E82-FC2E-488C-AE22-2F95F3565ACE}
 		{8A4441F8-FE09-4F78-86F9-D8F4ACEF03D5} = {7DD34E82-FC2E-488C-AE22-2F95F3565ACE}
 		{CD2C5A9C-25BC-41F7-919B-1B598649F173} = {7DD34E82-FC2E-488C-AE22-2F95F3565ACE}
+		{A578F679-3C32-4B0B-83CF-38040B117152} = {70002B9F-3670-4F04-9338-59D3A62C9C69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFAAE717-24B5-484D-B341-62C7F9F6916A}

@@ -1,5 +1,8 @@
 ﻿Module Conceptos
 
+    Sub Main()
+
+    End Sub
     'En visual basic.Net, tenemos varios tipos de procedimientos:
 
     '1- Sub

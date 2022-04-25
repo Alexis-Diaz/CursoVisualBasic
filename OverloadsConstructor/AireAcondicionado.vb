@@ -25,6 +25,7 @@
         _temperatura = 17
 
     End Sub
+
     'Propiedades
     Private _marca As String
     Private _modelo As String
@@ -88,52 +89,5 @@
         End Set
     End Property
 
-    'Metodos
 
-    'Sobrecarga de metodos: Sobrecargar se refiere a utilizar
-    'el mismo nombre de metodo pero con distinto numero de parametros.
-    'Esto permite utilizar el mismo nombre de metodo y bajo este
-    'agregar nuevas funciones. Para sobrecargar se usa la palabra
-    'reservada Overloads despues del tipo de acceso.
-
-    Public Overloads Sub subirTemperatura()
-        If _temperatura < 30 Then
-            _temperatura += 1
-        End If
-    End Sub
-
-    Public Overloads Sub subirTemperatura(grados As Integer)
-        Dim tem As Integer = _temperatura + grados
-        If tem > 30 Then
-            _temperatura = 30
-
-        Else
-            _temperatura = tem
-        End If
-
-    End Sub
-
-
-    Public Overloads Sub bajarTemperatura()
-        If _temperatura < 30 Then
-            _temperatura -= 1
-        End If
-    End Sub
-
-    Public Overloads Sub bajarTemperatura(grados As Integer)
-        Dim tem As Integer = _temperatura - grados
-        If tem < 0 Then
-            _temperatura = 0
-
-        Else
-            _temperatura = tem
-        End If
-
-    End Sub
-
-    Public Function temperaturaActual() As Integer
-
-        Return temperatura
-
-    End Function
 End Class

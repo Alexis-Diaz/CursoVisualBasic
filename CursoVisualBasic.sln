@@ -121,6 +121,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Overloads", "Overloads\Over
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OverloadsConstructor", "OverloadsConstructor\OverloadsConstructor.vbproj", "{1CC1B41B-7F0E-44DF-98B9-B2087A74B9D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{408E436D-1EF6-46AE-9C9F-162ED3099A17}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Shared", "Shared\Shared.vbproj", "{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -283,6 +287,10 @@ Global
 		{1CC1B41B-7F0E-44DF-98B9-B2087A74B9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CC1B41B-7F0E-44DF-98B9-B2087A74B9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CC1B41B-7F0E-44DF-98B9-B2087A74B9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -332,6 +340,7 @@ Global
 		{B5CA4BFF-2F20-4A48-9E38-52C1F893996E} = {74CF4A90-3839-45F5-80BE-D083EE5D5F68}
 		{49703060-DE7C-4576-8F3D-EF493B216794} = {D1A03C4C-F38C-482E-82C3-F9605B2767C2}
 		{1CC1B41B-7F0E-44DF-98B9-B2087A74B9D1} = {D1A03C4C-F38C-482E-82C3-F9605B2767C2}
+		{ED12A4E2-9B98-4D56-89F1-D44D3B1988DA} = {408E436D-1EF6-46AE-9C9F-162ED3099A17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFAAE717-24B5-484D-B341-62C7F9F6916A}

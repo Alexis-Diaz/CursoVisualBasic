@@ -1,34 +1,34 @@
-﻿Public Class CuentaAhorros
+﻿Public Class Cuenta
 
     'Campos
-    Private numeroCuentaAhorros As Integer
-    Private saldo As Double
-    Private cte As Cliente
-    Private Shared estableceNumeroCuenta As Integer = 1
+    Protected numcuenta As Integer
+    Protected saldo As Double
+    Protected cliente As Cliente
+    Protected Shared Id As Integer = 1
 
     'Constructores
     Public Sub New()
-        numeroCuentaAhorros = estableceNumeroCuenta
-        cte = Nothing
+        numcuenta = Id
+        cliente = Nothing
         saldo = 0
-        estableceNumeroCuenta += 1
+        Id += 1
     End Sub
 
     Public Sub New(cl As Cliente, sa As Double)
-        numeroCuentaAhorros = estableceNumeroCuenta
-        cte = cl
+        numcuenta = Id
+        cliente = cl
         saldo = sa
-        estableceNumeroCuenta += 1
+        Id += 1
     End Sub
 
     'Propiedades
     Public Property clienteCuenta() As Cliente
         Get
-            Return cte
+            Return cliente
         End Get
         Set(value As Cliente)
-            If (cte Is Nothing) Then
-                cte = value
+            If (cliente Is Nothing) Then
+                cliente = value
             Else
                 Console.WriteLine("El cliente ya esta asignado a la cuenta")
             End If
@@ -38,7 +38,7 @@
 
     'Metodos
     Public Function getNumeroCuentaAhorros() As Integer
-        Return numeroCuentaAhorros
+        Return numcuenta
     End Function
 
     Public Function getSaldo() As Double

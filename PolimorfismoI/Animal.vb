@@ -14,7 +14,7 @@
         End Set
     End Property
 
-    'La palabra reservada Overridable indica que este metodo se
+    'La palabra reservada Overridable (anudable) indica que este método se
     'puede sobreescribir desde una clase hija
 
     Public Overridable Function moverse() As String

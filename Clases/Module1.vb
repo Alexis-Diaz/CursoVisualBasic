@@ -28,12 +28,12 @@
         '2) Instanciandolo y agregando valores a sus propiedades
         '   en la misma inicialización
         Dim objeto3 As AirAcondicionado = New AirAcondicionado With {
-            .marca = "Hyu",
-            .modelo = "MH-92",
-            .color = "color",
-            .voltaje = "110",
-            .btu = 18000,
-            .temperatura = 0
+            .Marca = "Hyu",
+            .Modelo = "MH-92",
+            .Color = "color",
+            .Voltaje = "110",
+            .Btu = 18000,
+            .Temperatura = 0
         }
 
         Dim objeto4 As New AirAcondicionado With {
@@ -49,7 +49,7 @@
 
         '2) Instanciandolo y agregando valores a sus propiedades
         '   por medio del constructor. Falta agregar el ejemplo
-
+        Dim objeto5 As New AirAcondicionado("Hyu", "MH-92", "green", 120, 1922, 10)
 
 
 
